@@ -1,0 +1,47 @@
+html {
+	width: 80%;
+	margin: auto;
+}
+.container {
+	width: 90%;
+}
+#inside_block {
+	height: 100vh;
+}
+.complete {
+ 	/* text-decoration: line-through; */
+ 	font-style: italic;
+  	color: #DCDCDC !important;
+}
+[type="checkbox"]:checked+span:not(.lever):before {
+	border-right: 2px solid #DCDCDC;
+	border-bottom: 2px solid #DCDCDC;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    position: relative;
+    padding: 5px 10px;
+}
+tr.strikeout td:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #DCDCDC;
+    color: #DCDCDC;
+    width: 100%;
+}
+th,td:hover {
+	cursor: default;
+}
+td>*:hover {
+	cursor: default;
+}
+#data_div {
+	height: 80%;
+}
+.resize_texarea {
+	height: 390px !important; 
+}

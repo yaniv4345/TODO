@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/todo_db" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="50" maxWait="10000"
+               username="todo_db_user" password="todo_db_password" 
+               driverClassName="com.mysql.cj.jdbc.Driver"
+               url="jdbc:mysql://127.0.0.1:3306/todo" />
+
+</Context>
